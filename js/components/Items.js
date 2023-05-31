@@ -13,32 +13,42 @@ export default {
         </section>
     `,
 
-    data() {
-        return {
-            items: [
-                { name: 'Forex', added: false, id: 1 },
-                { name: 'Plexiglass', added: false, id: 2 },
-                { name: 'Cutting', added: false, id: 3 },
-            ],
-        }
-    },
-
     computed: {
         filters() {
+          if (!this.items) {
             return {
-                inProgress: this.items.filter(item => ! item.added),
-                added: this.items.filter(item => item.added)
+              inProgress: [],
+              added: []
             };
+          }
+          return {
+            inProgress: this.items.filter(item => !item.added),
+            added: this.items.filter(item => item.added)
+          };
         }
-    },
+      },
+
+    data() {
+        return {
+          items: []
+        };
+      },
+    
+      async created() {
+        try {
+          const response = await fetch('/json/materials.json');
+          const data = await response.json();
+    
+          // Assuming the JSON file has a top-level property called "materials"
+          this.items = data.materials;
+        } catch (error) {
+          console.error('Error loading data:', error);
+        }
+      },
 
     methods: {
-        add(name) {
-            this.items.push({
-                name: name,
-                added: false,
-                id: this.items.length + 1
-            });
+        add(newItem) {
+            this.items.push(newItem);
         }
     }
 }
