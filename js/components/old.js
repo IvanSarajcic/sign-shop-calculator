@@ -13,6 +13,18 @@ document.addEventListener("DOMContentLoaded", function () {
               "color": "white"
             }
           ]
+        },
+        {
+          "type": "Plexiglass",
+          "unit": "m2",
+          "properties": [
+            {
+              "subtype": "Cast",
+              "price": 15,
+              "largest-size": "1000x2000",
+              "color": "transparent"
+            }
+          ]
         }
       ]
     };

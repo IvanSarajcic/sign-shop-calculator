@@ -7,7 +7,7 @@ export default {
     template: `
         <section class="space-y-6">
             <item-list :items="filters.inProgress" title="In Progress"></item-list>
-            <item-list :items="filters.completed" title="Completed"></item-list>
+            <item-list :items="filters.added" title="Added"></item-list>
             
             <item-create @add="add"></item-create> 
         </section>
@@ -16,9 +16,9 @@ export default {
     data() {
         return {
             items: [
-                { name: 'Finish project', complete: false, id: 1 },
-                { name: 'Read Chapter 4', complete: false, id: 2 },
-                { name: 'Turn in Homework', complete: false, id: 3 },
+                { name: 'Forex', added: false, id: 1 },
+                { name: 'Plexiglass', added: false, id: 2 },
+                { name: 'Cutting', added: false, id: 3 },
             ],
         }
     },
@@ -26,8 +26,8 @@ export default {
     computed: {
         filters() {
             return {
-                inProgress: this.items.filter(item => ! item.complete),
-                completed: this.items.filter(item => item.complete)
+                inProgress: this.items.filter(item => ! item.added),
+                added: this.items.filter(item => item.added)
             };
         }
     },
@@ -36,7 +36,7 @@ export default {
         add(name) {
             this.items.push({
                 name: name,
-                completed: false,
+                added: false,
                 id: this.items.length + 1
             });
         }

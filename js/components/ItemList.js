@@ -6,13 +6,13 @@ export default {
     template: `
         <section v-show="items.length">
             <h2 class="font-bold mb-2">{{ title }}</h2>
-            <ul class="border border-gray-600 divide-y divide-gray-600">
+            <table class="border border-gray-600 divide-y divide-gray-600">
                <item 
                     v-for="item in items"
                     :key="item.id" 
                     :item="item"
                 ></item>
-            </ul>
+            </table>
         </section> 
     `,
 
