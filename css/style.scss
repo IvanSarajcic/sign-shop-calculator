@@ -1,0 +1,10 @@
+//colors
+$dark-color-primary: #1e1e2e;
+$dark-color-secondary: #2e2e3e;
+$light-color-primary: #f5f5fa;
+$light-color-secondary: #e5e5ea;
+body {
+    background-color: $dark-color-primary;
+    color: $light-color-primary;
+    font-family: Arial, Helvetica, sans-serif
+}
