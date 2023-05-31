@@ -1,0 +1,72 @@
+{
+  "materials": {
+    "plexiglass": {
+      "properties": {
+        "color": {
+          "en": ["white", "opal white", "transparent", "black"],
+          "sr": ["beli", "opal beli", "providni", "crni"]
+        },
+        "thickness": {
+          "en": ["1mm", "2mm", "3mm", "5mm", "8mm", "10mm", "15mm", "20mm"],
+          "sr": ["1mm", "2mm", "3mm", "5mm", "8mm", "10mm", "15mm", "20mm"]
+        },
+        "width": {
+          "en": "Width (mm)",
+          "sr": "Širina (mm)"
+        },
+        "height": {
+          "en": "Height (mm)",
+          "sr": "Visina (mm)"
+        },
+        "laserLength": {
+          "en": "Laser Cut Line Length (mm)",
+          "sr": "Dužina linije za lasersko sečenje (mm)"
+        }
+      }
+    },
+    "ledNeon": {
+      "properties": {
+        "color": {
+          "en": ["RGB", "warm white", "cool white", "red", "yellow"],
+          "sr": ["RGB", "toplo beli", "hladno beli", "crveni", "žuti"]
+        },
+        "length": {
+          "en": "Length (mm)",
+          "sr": "Dužina (mm)"
+        }
+      }
+    },
+    "printer": {
+      "properties": {
+        "media": {
+          "en": ["matte white", "glossy white", "matte transparent", "glossy transparent", "banner foil"],
+          "sr": ["bela mat", "bela sjaj", "providna mat", "providna sjaj", "baner folija"]
+        },
+        "width": {
+          "en": "Width (mm)",
+          "sr": "Širina (mm)"
+        },
+        "height": {
+          "en": "Height (mm)",
+          "sr": "Visina (mm)"
+        }
+      }
+    },
+    "cutter": {
+      "properties": {
+        "media": {
+          "en": ["regular", "reflective"],
+          "sr": ["obična", "reflektujuća"]
+        },
+        "area": {
+          "en": "Area (sqm)",
+          "sr": "Površina (m²)"
+        }
+      }
+    }
+  }
+}
+
+
+
+
