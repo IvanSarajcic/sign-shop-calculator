@@ -4,6 +4,6 @@ export default {
     components: { Items },
 
     template: `
-        <items></items>    
+        <items></items>
     `,
 }
