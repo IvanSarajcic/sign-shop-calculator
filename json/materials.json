@@ -26,5 +26,10 @@
         ]
       }
     ],
-    "items": []
+    "items": [
+      {
+        "name": "transport",
+        "units": "km"
+      }
+    ]
   }
