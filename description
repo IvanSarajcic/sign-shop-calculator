@@ -1,0 +1,30 @@
+1. Plexiglass > Properties: 
+	- color (dropbox with following options: "beli", "opal beli", "providni", "crni"); 
+	- thickness (dropbox with following options 1mm, 2mm, 3mm, 5mm, 8mm, 10mm, 15mm, 20mm);
+	- width (input box with numerical value in millimeters);
+	- height (input box with numerical value in millimeters);
+	- laser cut line lentgh (input box with numerical value in millimeters)
+
+2. Led Neon > Properties:
+	- color (dropbox with following options: "RGB", "toplo beli", "hladno beli", "crveni", "žuti");
+	- length (input box with numerical value in millimeters);
+
+3. Printer > Properties:
+	- media (dropbox with following options: "bela mat", "bela sjaj", "providna mat", "providna sjaj", "baner folija" );
+	- width (input box with numerical value in millimeters);
+	- height (input box with numerical value in millimeters);
+
+4. Cutter > Properties:
+	- media (dropbox with following options: "obična", "reflektujuća");
+	- area (input box with numerical value in square meters);
+
+
+
+I have made project in Vue.js and I want to adapt it to my needs. I have main HTML file `index.html`.  For styles I have CSS file `css/style.css` and embedded Tailwind. In the folder `js` I have following files written in Vue.js: 
+- `App.js` used for import other scripts and form the template
+- `Item.js` used to display one item and its properties.
+- `Items.js` used to import components: `ItemList.js` and `ItemCreate.js` and create a items list.
+- `ItemList.js` -vue file with `v-for` to create list
+- `ItemCreate.js` input box and submit button to create new item
+
+In the followng prompts, I can paste the files here, so two of us can rearange this code to my needs.
