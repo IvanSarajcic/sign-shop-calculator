@@ -1,21 +1,21 @@
 1. Plexiglass > Properties: 
-	- color (dropbox with following options: "beli", "opal beli", "providni", "crni"); 
-	- thickness (dropbox with following options 1mm, 2mm, 3mm, 5mm, 8mm, 10mm, 15mm, 20mm);
+	- color (selectbox with following options: "beli", "opal beli", "providni", "crni"); 
+	- thickness (selectbox with following options 1mm, 2mm, 3mm, 5mm, 8mm, 10mm, 15mm, 20mm);
 	- width (input box with numerical value in millimeters);
 	- height (input box with numerical value in millimeters);
 	- laser cut line lentgh (input box with numerical value in millimeters)
 
 2. Led Neon > Properties:
-	- color (dropbox with following options: "RGB", "toplo beli", "hladno beli", "crveni", "žuti");
+	- color (selectbox with following options: "RGB", "toplo beli", "hladno beli", "crveni", "žuti");
 	- length (input box with numerical value in millimeters);
 
 3. Printer > Properties:
-	- media (dropbox with following options: "bela mat", "bela sjaj", "providna mat", "providna sjaj", "baner folija" );
+	- media (selectbox with following options: "bela mat", "bela sjaj", "providna mat", "providna sjaj", "baner folija" );
 	- width (input box with numerical value in millimeters);
 	- height (input box with numerical value in millimeters);
 
 4. Cutter > Properties:
-	- media (dropbox with following options: "obična", "reflektujuća");
+	- media (selectbox with following options: "obična", "reflektujuća");
 	- area (input box with numerical value in square meters);
 
 
@@ -28,3 +28,7 @@ I have made project in Vue.js and I want to adapt it to my needs. I have main HT
 - `ItemCreate.js` input box and submit button to create new item
 
 In the followng prompts, I can paste the files here, so two of us can rearange this code to my needs.
+“˛
+
+
+˛
