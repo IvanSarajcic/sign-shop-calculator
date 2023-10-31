@@ -1,3 +1,5 @@
+# Materials and services
+
 1. Plexiglass > Properties: 
 	- color (selectbox with following options: "beli", "opal beli", "providni", "crni"); 
 	- thickness (selectbox with following options 1mm, 2mm, 3mm, 5mm, 8mm, 10mm, 15mm, 20mm);
@@ -20,15 +22,10 @@
 
 
 
-I have made project in Vue.js and I want to adapt it to my needs. I have main HTML file `index.html`.  For styles I have CSS file `css/style.css` and embedded Tailwind. In the folder `js` I have following files written in Vue.js: 
+
 - `App.js` used for import other scripts and form the template
 - `Item.js` used to display one item and its properties.
 - `Items.js` used to import components: `ItemList.js` and `ItemCreate.js` and create a items list.
 - `ItemList.js` -vue file with `v-for` to create list
 - `ItemCreate.js` input box and submit button to create new item
 
-In the followng prompts, I can paste the files here, so two of us can rearange this code to my needs.
-“˛
-
-
-˛
